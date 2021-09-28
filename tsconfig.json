@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./*"],
+      "@/components/*": ["components/*"],
+      "@/layout/*": ["components/layout/*"],
+      "@/common/*": ["components/common/*"],
+      "@/organisms/*": ["components/organisms/*"],
+      "@/config/*": ["config/*"],
+      "@/framework/*": ["framework/*"],
+      "@/api/*": ["framework/api/*"],
+      "@/hooks/*": ["framework/hooks/*"],
+      "@/utils/*": ["framework/utils/*"],
+      "@/scripts/*": ["framework/scripts/*"],
+      "@/types/*": ["types/*"],
+      "@/redux/*": ["redux/*"]
+    }
+  },
+  "include": ["next-env.d.ts", "types/*.ts", "**/*.ts", "**/*.tsx"],
+  "exclude": ["node_modules"]
+}
