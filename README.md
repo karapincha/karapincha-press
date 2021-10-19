@@ -1,5 +1,5 @@
-# Karapincha Web Starter Kit
+# Karapincha Next.js + WordPress Starter Template
 
-A [Next.js](https://nextjs.org) based website starter kit for building websites with [React](https://nextjs.org), [Typescript](https://www.typescriptlang.org), and [TailwindCSS](https://tailwindcss.com)
+Next.js + Headless WordPress frontend starter boilerplate by Karapincha Studio.
 
-![Karapincha](https://storage.googleapis.com/karapincha-github-covers/git-nextjs-cover.png)
+![Karapincha](https://raw.githubusercontent.com/karapincha/nextjs-template/master/.github/git-nextjs-cover.png)

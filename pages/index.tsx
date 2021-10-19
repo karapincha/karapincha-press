@@ -5,8 +5,10 @@ import apollo from '@/framework/apollo-client'
 export default function Page({ posts }: any) {
   return (
     <Fragment>
-      {posts.map(({ node: Post }: any) => (
-        <p key={Post.id}>{Post.title}</p>
+      {posts.map(({ node: post }: any) => (
+        <p key={post.id}>
+          {post.title} - {post.id}
+        </p>
       ))}
     </Fragment>
   )
