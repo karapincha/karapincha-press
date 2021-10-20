@@ -1,7 +1,7 @@
 import React from 'react'
 import 'styles/tailwind.scss'
 
-function App({ Component, pageProps }) {
+function App({ Component, pageProps }: any) {
   return <Component {...pageProps} />
 }
 

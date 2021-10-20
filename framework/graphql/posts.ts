@@ -2,35 +2,23 @@ import { gql } from '@apollo/client'
 
 export const GET_POST = (id: any) => gql`
   query MyQuery {
-    post(id: ${id}) {
+    post(id: "${id}", idType: SLUG) {
       id
-      author {
-        node {
-          avatar {
-            url
-          }
-          firstName
-          lastName
-          name
-          nicename
-          slug
-          userId
-          username
-        }
-      }
       content
+      title
     }
   }
 `
 
 export const GET_ALL_POSTS = gql`
-  query MyQuery {
+  query GetAllPosts {
     posts {
       edges {
         node {
           id
           date
           title
+          content
           slug
           featuredImage {
             node {
